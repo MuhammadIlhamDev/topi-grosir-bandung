@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "product": "product 1",
+    "price": 25000,
+    "image": "./img/menu/product1.png",
+    "description": "lorem product 1, dolor sit amet consectetur adipisicing elit. Illum libero quis, ex, e debitis ipsum molestias, quae soluta numquam minima placeat consequuntur at consectetur?"
+  },
+  {
+    "id": "2",
+    "product": "product 2",
+    "price": 26000,
+    "image": "./img/menu/product2.png",
+    "description": "lorem product 2, dolor sit amet consectetur adipisicing elit. Illum libero quis, ex, e debitis ipsum molestias, quae soluta numquam minima placeat consequuntur at consectetur?"
+  },
+  {
+    "id": "3",
+    "product": "product 3",
+    "price": 27000,
+    "image": "./img/menu/product3.png",
+    "description": "lorem product 3, dolor sit amet consectetur adipisicing elit. Illum libero quis, ex, e debitis ipsum molestias, quae soluta numquam minima placeat consequuntur at consectetur?"
+  },
+  {
+    "id": "4",
+    "product": "product 4",
+    "price": 28000,
+    "image": "./img/menu/product4.png",
+    "description": "lorem product 4, dolor sit amet consectetur adipisicing elit. Illum libero quis, ex, e debitis ipsum molestias, quae soluta numquam minima placeat consequuntur at consectetur?"
+  },
+  {
+    "id": "5",
+    "product": "product 5",
+    "price": 29000,
+    "image": "./img/menu/product5.png",
+    "description": "lorem product 5, dolor sit amet consectetur adipisicing elit. Illum libero quis, ex, e debitis ipsum molestias, quae soluta numquam minima placeat consequuntur at consectetur?"
+  },
+  {
+    "id": "6",
+    "product": "product 6",
+    "price": 30000,
+    "image": "./img/menu/product6.png",
+    "description": "lorem product 6, dolor sit amet consectetur adipisicing elit. Illum libero quis, ex, e debitis ipsum molestias, quae soluta numquam minima placeat consequuntur at consectetur?"
+  }
+]

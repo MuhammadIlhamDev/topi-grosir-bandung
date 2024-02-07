@@ -19,36 +19,38 @@
   <body>
     <!-- navbar start-->
     <nav class="navbar">
-        <a href="#" class="navbar-logo">Topi Grosir<span>bandung.</span></a>
+      <a href="#" class="navbar-logo">Topi Grosir<span>bandung.</span></a>
       <div class="navbar-nav">
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
+        <a href="#produk">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
       <div class="navbar-extra">
-        <a href="#" class="search" id="search-button"><i data-feather="search"></i></a>
-        <a href="#" class="cart" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        <a href="#" class="cart" id="shopping-cart">
+          <i data-feather="shopping-cart"></i>
+          <span class="iconCartSpan">0</span>
+        </a>
       </div>
-      <!-- search form start -->
-      <!-- <div class="search-form">
-          <input type="search" id="search-box" placeholder="search here...">
-          <label for="search-box"><i data-feather="search"></i></label>
-      </div> -->
-      <!-- search form end -->
+      <!-- shopping cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item"></div>
+        <div class="total-price"></div>
+      </div>
+      <!-- shopping cart end -->
     </nav>
     <!-- navbar end -->
 
     <!-- hero section start -->
     <section class="hero" id="home">
       <main class="content">
-        <h1>Topi Grosir<span>!</span></span></h1>
+        <h1>Topi Grosir<span>!</span></h1>
         <p>
           Temukan Koleksi Terbaru Kami - Desain Terkini, Kualitas Premium.
           Jadikan Gaya Anda Menonjol dengan Topi dari Kami!
         </p>
-        <a href="#" class="cta">Beli Sekarang</a>
+        <a href="#produk" class="cta">Beli Sekarang</a>
       </main>
     </section>
     <!-- hero section end -->
@@ -62,83 +64,25 @@
         </div>
         <div class="content">
           <h3>Kenapa Memilih Topi Kami?</h3>
-          <p>"Topi eksklusif kami memberikan gaya tak tertandingi. Kualitas premium, desain trendy, dan kenyamanan luar biasa. Temukan gaya unik Anda. Pilih topi kami, buat pernyataan fashion yang tak terlupakan."</p>
+          <p>
+            "Topi eksklusif kami memberikan gaya tak tertandingi. Kualitas
+            premium, desain trendy, dan kenyamanan luar biasa. Temukan gaya unik
+            Anda. Pilih topi kami, buat pernyataan fashion yang tak terlupakan."
+          </p>
         </div>
       </div>
     </section>
     <!-- about section end -->
 
     <!-- menu section start -->
-    <section class="menu" id="menu">
+    <section class="menu" id="produk">
       <h2><span>Produk</span> Kami</h2>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis,
         neque minus obcaecati ipsam dolorum praesentium.
       </p>
-      <div class="row">
-        <div class="menu-card">
-          <img
-            src="./img/menu/new-era-3866-9773143-1-fotor-2024012014647.png"
-            alt="espresso"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 25,000</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="./img/menu/new-era-3866-9773143-1-fotor-2024012014647.png"
-            alt="espresso"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 25,000</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="./img/menu/new-era-3866-9773143-1-fotor-2024012014647.png"
-            alt="espresso"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 25,000</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="./img/menu/new-era-3866-9773143-1-fotor-2024012014647.png"
-            alt="espresso"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 25,000</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="./img/menu/new-era-3866-9773143-1-fotor-2024012014647.png"
-            alt="espresso"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 25,000</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="./img/menu/new-era-3866-9773143-1-fotor-2024012014647.png"
-            alt="espresso"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 25,000</p>
-        </div>
-        <div class="menu-card">
-          <img
-            src="./img/menu/new-era-3866-9773143-1-fotor-2024012014647.png"
-            alt="espresso"
-            class="menu-card-img"
-          />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 25,000</p>
-        </div>
+      <div class="product-card">
+        <div class="menu-card"></div>
       </div>
     </section>
     <!-- menu section end -->
@@ -150,11 +94,13 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi,
         beatae?
       </p>
-
       <div class="row">
         <iframe
-          class="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.823224636048!2d107.62669577610019!3d-6.911729067647721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7acf7294587%3A0x65b1000f98ca530!2sCoffee%20Bawa!5e0!3m2!1sid!2sid!4v1704683218310!5m2!1sid!2sid"
+          class="iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56400423005!2d107.560754729453!3d-6.903442379280497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1707286095113!5m2!1sid!2sid"
+          width="600"
+          height="660"
+          style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
@@ -188,7 +134,7 @@
       <div class="links">
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
+        <a href="#produk">Menu</a>
         <a href="#contact">Kontak</a>
       </div>
       <div class="credit">
@@ -197,11 +143,16 @@
     </footer>
     <!-- footer end -->
 
+    <!-- modal box item detail start -->
+    <div class="container"></div>
+    <!-- modal box item detail end -->
+
     <!-- Feather Icons -->
     <script>
       feather.replace();
     </script>
     <!-- My Javascript -->
     <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
   </body>
 </html>
