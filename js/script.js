@@ -64,7 +64,7 @@ const addDataToHTML = () => {
     <div class="product-image">
       <img
         src="${product.image}"
-        alt="product 1"
+        alt="${product.product}"
         class="menu-card-img"
       />
       <h1 class="menu-card-title">${product.product}</h1>
